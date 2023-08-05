@@ -16,14 +16,14 @@
 .slogan{
     font-size: 3rem;
     -webkit-text-stroke: 1px #000; 
-    margin-top: 100px;
+    margin-top: 150px;
     color: white;
 }
 
 .content {
     /* 網頁 明亮 */
-    -webkit-filter:contrast(.5);
-    background: url("../image/index2.jpg");
+    -webkit-filter:contrast(.2);
+    background: url("../image/index2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -31,17 +31,23 @@
     height: 450px;
 }
 
+.topbar{
+    margin-top: 50px;
+}
 
 .nav-item i {
     padding-right: 5px;
 }
 
+.content_tx{
+    margin-top: 200px; /* 负值向上调整 */
+}
 
 @media (max-width: 576px) { 
     .content {
         /* app 明亮 */
-        -webkit-filter:contrast(.5);
-        background: url("../image/index2.jpg");
+        -webkit-filter:contrast(.2);
+        background: url("../image/index2.png");
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: scroll;
