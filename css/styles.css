@@ -1,19 +1,51 @@
 .masthead {
     /* 明亮 */
     -webkit-filter:contrast(.5);
-    background: url("../image/index.jpg");
+    background: url("../image/index.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
 }
-
+     /* index 標語 */
 .masthead h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     -webkit-text-stroke: 1px #000; 
     color: white;
 }
+.slogan{
+    font-size: 3rem;
+    -webkit-text-stroke: 1px #000; 
+    margin-top: 100px;
+    color: white;
+}
+
+.content {
+    /* 網頁 明亮 */
+    -webkit-filter:contrast(.5);
+    background: url("../image/index2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 450px;
+}
+
 
 .nav-item i {
     padding-right: 5px;
 }
+
+
+@media (max-width: 576px) { 
+    .content {
+        /* app 明亮 */
+        -webkit-filter:contrast(.5);
+        background: url("../image/index2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 300px;
+    }
+ }
