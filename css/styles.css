@@ -31,6 +31,17 @@
     height: 450px;
 }
 
+.about {
+    /* 網頁 明亮 */
+    -webkit-filter:contrast(.6);
+    background: url("../image/index2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 650px;
+}
+
 .topbar{
     margin-top: 50px;
 }
