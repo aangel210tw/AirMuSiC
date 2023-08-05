@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AirMuSiC</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- CSS-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <script>
+            // 監聽滾動事件
+            window.addEventListener("scroll", function () {
+                // 取得滾動位置
+                const scrollPos = window.scrollY;
+
+                // 取得Navbar元素
+                const navbar = document.querySelector(".navbar");
+
+                // 如果滾動位置超過了一定距離，則固定Navbar在最上方，否則取消固定
+                if (scrollPos > window.innerHeight) { // 您可以調整這個數值，表示滾動多少距離後固定Navbar
+                    navbar.classList.add("fixed-top");
+                } else {
+                    navbar.classList.remove("fixed-top");
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <div class="masthead vh-100">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">這邊要放文字</h1>
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="mb-5">這個可能是小字</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./image/logo.jpg" alt="" width="30" height="30"> Air Music 音樂工作室
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-people-fill"></i>關於我們</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-bag-check"></i>樂器規格</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-music-note-beamed"></i>課程資訊</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-music-note-beamed"></i>師資陣容</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <p>這一頁要多塞一點東西嗎???????</p>
+            <p>這一頁要多塞一點東西嗎???????</p>
+            <p>這一頁要多塞一點東西嗎???????</p>
+        </div>
+
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">聯絡我們</h2>
+                        <hr>
+                        <p class="text-muted mb-5">如果你有課程上，或是商品上有任何問題，歡迎透過以下方式，來跟我們聯絡~</p>
+
+
+                        <p>☎️ 06 652 7828</p>
+
+                        <p>✉️ tncayes0609@gmail.com</p>
+
+                        <p>📍新營區嘉芳街28巷60號, Tainan, Taiwan</p>
+
+                    </div>
+                    
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="row">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.1975323892552!2d120.2852747!3d23.3085908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e8427cfadb75f%3A0xf59b6347e5298881!2zNzMw5Y-w5Y2X5biC5paw54ef5Y2A5ZiJ6Iqz6KGXMjjlt7c2MOiZnw!5e0!3m2!1szh-TW!2stw!4v1691199564993!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <footer class="text-center text-white" style="background-color: #f1f1f1;">
+            <div class="container pt-4">
+                <section class="mb-4">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/airmusic0710/" role="button" data-mdb-ripple-color="dark">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/airmusic0710/" role="button" data-mdb-ripple-color="dark">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.youtube.com/@airmusic1465" role="button" data-mdb-ripple-color="dark">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </section>
+            </div>
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              Air Music since 2016
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script> -->
+    </body>
+</html>

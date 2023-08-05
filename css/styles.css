@@ -1,0 +1,19 @@
+.masthead {
+    /* 明亮 */
+    -webkit-filter:contrast(.5);
+    background: url("../image/index.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.masthead h1 {
+    font-size: 5rem;
+    -webkit-text-stroke: 1px #000; 
+    color: white;
+}
+
+.nav-item i {
+    padding-right: 5px;
+}
