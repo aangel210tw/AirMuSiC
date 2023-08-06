@@ -26,12 +26,12 @@
 }
 /* index 標語動字 */
 .heart {
-	font-size: 50px;
-	animation: beat .50s infinite alternate;
+	font-size: 150px;
+	animation: beat .35s infinite alternate;
 	transform-origin: center;
 }
 @keyframes beat{
-	to { transform: scale(1.); }
+	to { transform: scale(1.1); }
 }
 
 .content {
