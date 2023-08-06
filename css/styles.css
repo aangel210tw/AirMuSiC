@@ -7,14 +7,14 @@
   background-attachment: scroll;
   background-size: cover;
 }
-     /* index 標語 */
+/* index 標語 */
 .masthead h1 {
   font-size: 3rem;
   -webkit-text-stroke: 1px #000; 
   color: white;
 }
 .slogan{
-  font-size: 3rem;
+  font-size: 1rem;
   text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
   margin-top: 150px;
   color: black
@@ -23,6 +23,15 @@
   font-size: 3rem;
   text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
   color: black
+}
+/* index 標語動字 */
+.heart {
+	font-size: 50px;
+	animation: beat .50s infinite alternate;
+	transform-origin: center;
+}
+@keyframes beat{
+	to { transform: scale(1.2); }
 }
 
 .content {
