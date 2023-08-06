@@ -22,13 +22,13 @@
 
 .content {
     /* 網頁 明亮 */
-    -webkit-filter:contrast(.2);
+    /* -webkit-filter:contrast(.2); */
     background: url("../image/index2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    height: 450px;
+    height: 750px;
 }
 
 .about {
@@ -43,7 +43,7 @@
 }
 
 .topbar{
-    margin-top: 50px;
+    padding: 3rem 0;
 }
 
 .nav-item i {
@@ -51,18 +51,19 @@
 }
 
 .content_tx{
-    margin-top: 200px; /* 负值向上调整 */
+    color: white;
+    margin-top: 50px;
 }
 
 @media (max-width: 576px) { 
     .content {
         /* app 明亮 */
-        -webkit-filter:contrast(.2);
+        /* -webkit-filter:contrast(.2); */
         background: url("../image/index2.png");
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: cover;
-        height: 300px;
+        height: 500px;
     }
  }
